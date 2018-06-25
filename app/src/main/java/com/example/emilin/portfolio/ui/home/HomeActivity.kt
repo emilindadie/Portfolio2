@@ -1,4 +1,4 @@
-package com.example.emilin.portfolio.ui
+package com.example.emilin.portfolio.ui.home
 
 import android.os.Bundle
 import android.support.design.widget.TabLayout
@@ -6,12 +6,12 @@ import android.support.v4.view.ViewPager
 import com.example.emilin.portfolio.R
 import com.example.emilin.portfolio.adapter.PortfolioPagerAdapter
 import com.example.emilin.portfolio.base.BaseActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_home.*
 
-class MainActivity : BaseActivity() {
+class HomeActivity : BaseActivity() {
     internal lateinit var tabLayoutAdapter: PortfolioPagerAdapter
     //Inflate target layout thanks to his super class
-    override fun getLayoutResId(): Int = R.layout.activity_main
+    override fun getLayoutResId(): Int = R.layout.activity_home
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

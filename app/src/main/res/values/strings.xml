@@ -9,4 +9,8 @@
     <string name="experiences_fragment_title">Expériences</string>
     <string name="diploma_title_section">Formations et diplômes</string>
     <string name="experiences_title_section">Expériences</string>
+    <string name="email_adress">dadie.emilin@gmail.com</string>
+    <string name="my_number">0796854587</string>
+    <string name="my_github">https://github.com/emilindadie/</string>
+    <string name="view_cv_text">Voir mon CV</string>
 </resources>

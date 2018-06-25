@@ -5,8 +5,8 @@ import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
 import com.example.emilin.portfolio.R
-import com.example.emilin.portfolio.ui.DiplomaFragment
-import com.example.emilin.portfolio.ui.ExperiencesFragment
+import com.example.emilin.portfolio.ui.home.DiplomaFragment
+import com.example.emilin.portfolio.ui.home.ExperiencesFragment
 
 class PortfolioPagerAdapter (val fm : FragmentManager, val context : Context): FragmentPagerAdapter(fm) {
 
