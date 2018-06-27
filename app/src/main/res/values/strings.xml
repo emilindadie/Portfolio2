@@ -13,4 +13,7 @@
     <string name="my_number">0796854587</string>
     <string name="my_github">https://github.com/emilindadie/</string>
     <string name="view_cv_text">Voir mon CV</string>
+    <string name="center_current_position">Centrer la position</string>
+    <string name="map_fragment_title">Map</string>
+    <string name="searchEducation">Mes formations</string>
 </resources>

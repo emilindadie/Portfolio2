@@ -13,6 +13,7 @@ tools:context=".ui.main.MainActivity">
     <LinearLayout
         android:id="@+id/topLinear"
         android:gravity="center"
+        android:background="@drawable/image_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <com.github.abdularis.civ.CircleImageView
@@ -20,7 +21,7 @@ tools:context=".ui.main.MainActivity">
             android:layout_gravity="center"
             android:layout_width="160dp"
             android:layout_height="180dp"
-            android:src="@drawable/envelope"
+            android:src="@drawable/profil"
             app:strokeColor="@color/colorAccent"/>
     </LinearLayout>
 
@@ -45,7 +46,7 @@ tools:context=".ui.main.MainActivity">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/envelope"/>
+                    android:src="@drawable/mail"/>
 
                 <TextView
                     android:layout_marginLeft="30dp"
@@ -62,9 +63,11 @@ tools:context=".ui.main.MainActivity">
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/phone_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/envelope"/>
+                android:src="@drawable/phone"
+                />
 
             <TextView
                 android:layout_marginLeft="30dp"
@@ -81,22 +84,43 @@ tools:context=".ui.main.MainActivity">
             android:layout_height="wrap_content">
 
                 <ImageView
+                    android:id="@+id/github_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/envelope"
+                    android:src="@drawable/github"
                     />
-
+            <!--
                 <TextView
                     android:layout_marginLeft="30dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/my_github"/>
+                    android:text="@string/my_github"/> -->
         </LinearLayout>
 
         <LinearLayout
-            android:gravity="center"
             android:id="@+id/linear4"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="80dp"
             android:layout_below="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/linkedin_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linkedin"
+                />
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_github"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/linear5"
+            android:layout_below="@+id/linear4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <Button

@@ -6,6 +6,8 @@ import android.os.Build
 import android.support.annotation.RequiresApi
 import android.support.v4.app.Fragment
 import com.example.emilin.pokemonapp.injection.scope.ActivityContext
+import com.example.emilin.portfolio.tracker.GpsTrackerImpl
+import com.example.emilin.portfolio.tracker.GpsTraker
 import dagger.Module
 import dagger.Provides
 
@@ -18,4 +20,7 @@ class FragmentModule(val fragment : Fragment) {
     @Provides
     @ActivityContext
     internal fun provideFragmentContext(): Context? = fragment.context
+
+    @Provides
+    internal  fun provideGpTracker(): GpsTraker = GpsTrackerImpl()
 }
