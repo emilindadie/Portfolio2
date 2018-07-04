@@ -16,4 +16,7 @@
     <string name="center_current_position">Centrer la position</string>
     <string name="map_fragment_title">Map</string>
     <string name="searchEducation">Mes formations</string>
+    <string name="github_url">https://github.com/emilindadie/</string>
+    <string name="linkedin_url">https://www.linkedin.com/in/emilindadie/</string>
+    <string name="diploma_default_title">Titre par defaut</string>
 </resources>

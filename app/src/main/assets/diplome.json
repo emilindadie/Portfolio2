@@ -1,0 +1,46 @@
+{
+  "diplomes": [
+    {
+      "id": 1,
+      "name": "Bac professionnel Elec",
+      "picture_url" : "https://st.depositphotos.com/1498512/4781/v/950/depositphotos_47814509-stock-illustration-flat-design-electricity-power-icons.jpg",
+      "full_name": "Baccalauréat Professionnel Electrotechnique, énergie, équipements communicants",
+      "school": "Lycée Théodore Monod",
+      "city": "Noisy le sec",
+      "month": "Juillet",
+      "year": "2013"
+    },
+
+    {
+      "id": 2,
+      "name": "Bts Domotique",
+      "picture_url": "http://www.terracites.fr/wp-content/uploads/2017/10/eclairage-domotique.jpg",
+      "full_name": " BTS Domotique et Gestion Technique du Bâtiment",
+      "school": "Lycée Maximilien Perret",
+      "city": "AlfortVille",
+      "month": "Juillet",
+      "year": "2016"
+    },
+    {
+      "id": 3,
+      "name": "Licence Tema",
+      "picture_url": "https://metz.fr/pages/accessibilite/images/picto.jpg",
+      "full_name": "Licence professionnel de la Technologie de la mobilité et de l’accessibilité ",
+      "school": "IUT de Vélizy",
+      "city": "Vélizy",
+      "month": "Octobre",
+      "year": "2016"
+    },
+
+    {
+      "id": 4,
+      "name": "Master Handi",
+      "picture_url": "http://lekiosque.bzh/wp-content/uploads/2017/10/Accessibilit%C3%A9.jpg",
+      "full_name": "Master Mathématiques et Informatique Appliquées aux Sciences Humaines et Social   ",
+      "school": "Université Paris 8",
+      "city": "Saint-Denis",
+      "month": "Juillet",
+      "year": "2017"
+    }
+  ]
+}
