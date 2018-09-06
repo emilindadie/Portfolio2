@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <string-array name="colorDiplome">
+        <item>#3F51B5</item>
+        <item>#FF4081</item>
+        <item>#E80C7A</item>
+        <item>#FF0000</item>
+        <item>#FF530D</item>
+    </string-array>
 </resources>
