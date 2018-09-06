@@ -19,4 +19,6 @@
     <string name="github_url">https://github.com/emilindadie/</string>
     <string name="linkedin_url">https://www.linkedin.com/in/emilindadie/</string>
     <string name="diploma_default_title">Titre par defaut</string>
+    <string name="year_2018">2018</string>
+    <string name="experiences_title_2018">Apprenti développeur Mean Stack</string>
 </resources>

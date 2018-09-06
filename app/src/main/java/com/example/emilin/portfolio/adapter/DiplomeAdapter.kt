@@ -21,7 +21,6 @@ import android.graphics.Color
 import android.widget.Toast
 import com.example.emilin.portfolio.R.array.colorDiplome
 
-
 class DiplomeAdapter(val context: Context, val onItemClick: OnItemClick): RecyclerView.Adapter<DiplomeAdapter.ViewHolder>() {
 
     var diplomesList : List<Diplome> = ArrayList()
